@@ -1,18 +1,18 @@
-# Küresel Kalkınma ve Refah Analizi: Uçtan Uca Veri Görselleştirme Projesi
+# Küresel Kalkınma ve Refah Analizi: Veri Görselleştirme Projesi
 
 Üniversite **Veri Görselleştirme** dersi ödevim için hazırladığım; Python kullanarak verileri temizlediğim, akademik ilkelere uygun şekilde görselleştirdiğim ve sonuçlarını yorumladığım uçtan uca bir veri analizi çalışmasıdır.
 
 ---
 
 ## Proje Hakkında
-Bu çalışmada Hans Rosling'in kurucusu olduğu **Gapminder** veri setini kullandım. Proje boyunca temel amacım; verideki sayısal, kategorik ve zamansal boyutları doğru grafik türleriyle eşleştirmek, veri estetiği kurallarına (`data-ink ratio`) dikkat etmek ve yanlış görselleştirme tuzaklarını incelemek oldu.
+Bu projede, Hans Rosling'in kurucusu olduğu Gapminder Vakfı'na ait küresel sosyo-ekonomik veri seti kullanılmıştır. Çalışma boyunca şu temel adımlar gerçekleştirilmiştir:
 
 **Temel Adımlar:**
-* Veri ön işleme, eksik veri ve tip kontrolleri
+* Veri ön işleme, eksik veri kontrolleri
 * Dağılım, zaman serisi, ilişki ve kompozisyon analizleri
-* Seaborn (statik) ve Plotly (interaktif) ile grafik tasarımı
+* Seaborn ve Plotly ile grafik tasarımı
 * Tasarım seçimlerinin akademik gerekçelendirilmesi
-* Bilerek yapılan hatalı grafiklerin (*bad visualization*) eleştirisi
+* Bilerek yapılan hatalı grafiklerin eleştirisi
 
 ---
 
@@ -33,18 +33,17 @@ Bu çalışmada Hans Rosling'in kurucusu olduğu **Gapminder** veri setini kulla
 
 ---
 
-## Yanlış Grafik (Bad Visualization) Eleştirisi
-Projenin sonunda, veri görselleştirme etiğine aykırı iki klasik hatayı bilerek tasarladım ve eleştirdim:
-* **Y Ekseni Kesik Sütun Grafiği:** Eksenin sıfırdan başlatılmamasının (*Lie Factor*) kıtalar arası farkları nasıl yapay olarak abarttığını gösterdim.
-* **Kalabalık Pasta Grafiği:** Onlarca kategoriyi tek pastaya sığdırmanın okunabilirliği nasıl yok ettiğini açıkladım ve doğru alternatiflerini önerdim.
+## Yanlış Grafik Eleştirisi
+Projenin sonunda, veri görselleştirme etiğine aykırı klasik bir hatayı bilerek tasarladım ve eleştirdim:
+* **Kalabalık Pasta Grafiği:** Onlarca kategoriyi tek pastaya sığdırmanın okunabilirliği nasıl yok ettiğini açıkladım.
 
 ---
 
 ## Kullanılan Teknolojiler
 * **Python**
-* **Pandas & NumPy** (Veri ön işleme)
-* **Matplotlib & Seaborn** (Statik ve akademik grafikler)
-* **Plotly Express** (İnteraktif web görselleştirmeleri)
+* **Pandas & NumPy** 
+* **Matplotlib & Seaborn** 
+* **Plotly Express** 
 
 ---
 
